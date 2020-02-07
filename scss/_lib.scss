@@ -1,0 +1,25 @@
+//共通//
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 12px;
+    line-height: 1.67;
+}
+.section {
+    width: 100%;
+    min-height: 100vh;
+    &:nth-child(2n) {
+        background-color: #ffdd;
+    }
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1280px;
+}
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
